@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.tsx",
+    "server": "nodemon server/server.tsx"
   },
   "repository": {
     "type": "git",
