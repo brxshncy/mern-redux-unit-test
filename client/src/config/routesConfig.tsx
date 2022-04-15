@@ -18,9 +18,9 @@ const Tweets = React.lazy(() =>
   }))
 );
 
-const privateRoutes = [
+export const privateRoutes = [
   {
     path: "/",
-    element: Tweets,
+    element: <Tweets />,
   },
 ];
